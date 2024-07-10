@@ -38,7 +38,7 @@ def calculate(args):
 
 def main():
     if len(sys.argv) < 3:
-        print("Usage: python complex_calculator.py <operation> <numbers...>")
+        print("Usage: python calculator.py <operation> <numbers...>")
         return
 
     result = calculate(sys.argv)
